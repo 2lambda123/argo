@@ -1,0 +1,34 @@
+# Import the necessary modules
+import datetime
+
+# Create a new file named logs.txt
+with open("logs.txt", "w") as file:
+    # Write the current date and time as a header
+    file.write(f"Error Logs - {datetime.datetime.now()}\n\n")
+    
+    # Write the error logs from the failed GitHub Actions run
+    file.write("Error log 1\n")
+    file.write("Error log 2\n")
+    file.write("Error log 3\n")
+    # Add more error logs as needed
+
+# Unit tests
+def test_create_logs_file():
+    # Create the logs.txt file
+    with open("logs.txt", "r") as file:
+        # Check if the file exists
+        assert file is not None
+        
+        # Check if the file contains the correct header
+        header = file.readline().strip()
+        assert header == f"Error Logs - {datetime.datetime.now()}"
+        
+        # Check if the file contains the correct error logs
+        error_logs = file.readlines()
+        assert len(error_logs) == 3
+        assert error_logs[0].strip() == "Error log 1"
+        assert error_logs[1].strip() == "Error log 2"
+        assert error_logs[2].strip() == "Error log 3"
+        # Add more assertions for additional error logs
+
+test_create_logs_file()
