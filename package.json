@@ -21,7 +21,7 @@
         "node": ">=8.11.1"
     },
     "dependencies": {
-        "async": "^3.2.0",
+        "async": "^3.2.2",
         "body-parser": "^1.20.2",
         "cron": "^1.8.2",
         "d3": "^7.8.5",
@@ -34,6 +34,8 @@
         "https-proxy-agent": "^5.0.0",
         "hyperhtml": "^2.33.0",
         "introspected": "^0.2.6",
+        "limiter": "^1.1.5",
+        "tachyons": "^4.12.0"
         "limiter": "^1.1.5",
         "tachyons": "^4.12.0"
     },
