@@ -39,7 +39,14 @@ function startStream(req, res) {
     } else {
         stream.start(req.body, async err => {
             const ipaddress = await util.getIP();
-            const port = config.port;
+            const ipaddress = await util.getIP();
+      const port = config.port;
+    
+    if (err) {
+      log(err);
+    } else {
+      res.json({ ipaddress, port });
+    }
 
             if (!err) {
                 res.json({ ipaddress, port });
