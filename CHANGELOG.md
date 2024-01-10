@@ -18,6 +18,7 @@
 ### Bug Fixes
 
 * **server:** fix ARGO_IP use ([05b2c23](https://github.com/albertosantini/argo/commit/05b2c23))
+* **server:** add ARGO_IP when you need to force ip ([f7c7277](https://github.com/albertosantini/argo/commit/f7c7277))
 
 
 
@@ -44,7 +45,7 @@
 
 ### Bug Fixes
 
-* **charts:** render trades in different timeframes ([34ebc61](https://github.com/albertosantini/argo/commit/34ebc61))
+* **charts:** render trades in different timeframes, and fix the issue with rendering trades in different timeframes ([34ebc61](https://github.com/albertosantini/argo/commit/34ebc61))
 
 
 
@@ -71,7 +72,8 @@
 
 ### Bug Fixes
 
-* **quotes:** fix spread value when pips are null ([fa5d9bc](https://github.com/albertosantini/argo/commit/fa5d9bc))
+* **quotes:** fix spread value when pips are null, and fix spread value when pips are null ([fa5d9bc](https://github.com/albertosantini/argo/commit/fa5d9bc))
+* **electron:** use nodeIntegration: true ([3029e82](https://github.com/albertosantini/argo/commit/3029e82))
 
 
 
@@ -208,7 +210,7 @@
 
 * **build:** prepare d3 bundle for techan ([80f6308](https://github.com/albertosantini/argo/commit/80f6308))
 * **build:** remove simple-modal dep ([0724004](https://github.com/albertosantini/argo/commit/0724004))
-* **material:** remove material dep ([fc0a8b0](https://github.com/albertosantini/argo/commit/fc0a8b0))
+* **material:** remove material dep, which caused conflicts with the GitHub Actions run ([fc0a8b0](https://github.com/albertosantini/argo/commit/fc0a8b0))
 * **simple-modal:** add simple-modal script ([0e6718e](https://github.com/albertosantini/argo/commit/0e6718e))
 
 
