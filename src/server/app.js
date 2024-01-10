@@ -37,5 +37,5 @@ app.listen(port, async () => {
 
 plugin.startBridge();
 
-const errorLogs = fs.readFileSync('src/client/error-logs.txt', 'utf8');
+// Removed the reading of 'error-logs.txt' file
 console.log(errorLogs);
