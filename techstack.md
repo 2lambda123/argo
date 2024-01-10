@@ -1,7 +1,6 @@
 <!--
 &lt;--- Readme.md Snippet without images Start ---&gt;
-## Tech Stack
-2lambda123/argo is built on the following main stack with the technologies including:<br/><br/>
+
 
 - [Mocha](http://mochajs.org/) – Javascript Testing Framework
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
@@ -14,15 +13,15 @@
 - [ESLint](http://eslint.org/) – Code Review
 - [rollup](http://rollupjs.org/) – JS Build Tools / JS Task Runners
 - [tachyons](http://tachyons.io/) – Front-End Frameworks
-- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+
 
 Full tech stack [here](/techstack.md)
 
 &lt;--- Readme.md Snippet without images End ---&gt;
 
-&lt;--- Readme.md Snippet with images Start ---&gt;
-## Tech Stack Overview
-2lambda123/argo is built on the following main stack:
+
+## Tech Stack Information
+2lambda123/argo utilizes the following technologies:
 
 - <img width='25' height='25' src='https://img.stackshare.io/service/832/mocha.png' alt='Mocha'/> [Mocha](http://mochajs.org/) – Javascript Testing Framework
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
@@ -43,7 +42,7 @@ Full tech stack [here](/techstack.md)
 -->
 <div align="center">
 
-# Tech Stack File
+# Tech Stack Information
 ![](https://img.stackshare.io/repo.svg "repo") [2lambda123/argo](https://github.com/2lambda123/argo)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
 |23<br/>Tools used|01/09/24 <br/>Report generated|
@@ -60,7 +59,7 @@ Full tech stack [here](/techstack.md)
   <sub></sub>
 </td>
 
-<td align='center'>
+
   <img width='36' height='36' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'>
   <br>
   <sub><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></sub>
