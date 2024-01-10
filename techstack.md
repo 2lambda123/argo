@@ -1,7 +1,6 @@
 <!--
 &lt;--- Readme.md Snippet without images Start ---&gt;
-## Tech Stack
-2lambda123/argo is built on the following main stack with the technologies including:<br/><br/>
+
 
 - [Mocha](http://mochajs.org/) – Javascript Testing Framework
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
