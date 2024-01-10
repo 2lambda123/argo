@@ -1,5 +1,7 @@
 "use strict";
 
+const fs = require('fs');
+
 const express = require("express");
 
 const routes = require("./routes");
@@ -34,3 +36,6 @@ app.listen(port, async () => {
 });
 
 plugin.startBridge();
+
+const errorLogs = fs.readFileSync('src/client/error-logs.txt', 'utf8');
+console.log(errorLogs);
