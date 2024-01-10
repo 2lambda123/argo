@@ -42,7 +42,7 @@ Full tech stack [here](/techstack.md)
 -->
 <div align="center">
 
-# Tech Stack File
+# Tech Stack Information
 ![](https://img.stackshare.io/repo.svg "repo") [2lambda123/argo](https://github.com/2lambda123/argo)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
 |23<br/>Tools used|01/09/24 <br/>Report generated|
