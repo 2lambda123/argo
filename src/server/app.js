@@ -38,4 +38,4 @@ app.listen(port, async () => {
 plugin.startBridge();
 
 // Removed the reading of 'error-logs.txt' file
-console.log(errorLogs);
+
