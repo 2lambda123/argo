@@ -25,7 +25,7 @@ const urlParse = require("url").parse;
 const https = require("https");
 const http = require("http");
 const querystring = require("querystring");
-const EventEmitter = require("events");
+const util = require("util");
 const HttpsProxyAgent = require("https-proxy-agent");
 
 function request({
