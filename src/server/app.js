@@ -1,3 +1,6 @@
+/*
+This file defines the Argo server, including the setup of routes, the listening of the server, and the startup of a plugin.
+*/
 "use strict";
 
 const fs = require('fs');
@@ -13,8 +16,12 @@ const port = routes.config.port;
 const staticFiles = express.static;
 const apiUrl = routes.config.apiUrl;
 
-process.on("uncaughtException", err => {
-    console.error(err.stack);
+process.on("uncaughtException", async err => {
+    try {
+        console.error(err.stack);
+    } catch (err) {
+        console.error('Uncaught Exception:', err.stack);
+    }
 });
 
 app.use(staticFiles(routes.config.staticFiles));
@@ -23,6 +30,7 @@ app.use("/build", staticFiles(routes.config.buildFiles));
 app.use(apiUrl, routes.apis);
 
 app.listen(port, async () => {
+    // Start the bridge connection with the plugin
     const ipaddress = await util.getIP();
 
     util.log(`Argo listening on http://${ipaddress}:${port}`);
@@ -35,7 +43,7 @@ app.listen(port, async () => {
     util.log(`Argo streaming prices and events on ws://${ipaddress}:${port}${routes.config.streamUrl}`);
 });
 
-plugin.startBridge();
+
 
 // Removed the reading of 'error-logs.txt' file
-console.log(errorLogs);
+
