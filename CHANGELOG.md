@@ -61,7 +61,9 @@
 
 
 ### Bug Fixes
+* **quotes:** fix sparklines ([3029e82](https://github.com/albertosantini/argo/commit/3029e82))
 
+### Bug Fixes
 * **electron:** use nodeIntegration: true ([3029e82](https://github.com/albertosantini/argo/commit/3029e82))
 
 
@@ -71,6 +73,7 @@
 
 ### Bug Fixes
 
+### Bug Fixes
 * **quotes:** fix spread value when pips are null ([fa5d9bc](https://github.com/albertosantini/argo/commit/fa5d9bc))
 
 
