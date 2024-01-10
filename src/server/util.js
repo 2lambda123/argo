@@ -4,7 +4,23 @@ const os = require("os");
 const dns = require("dns");
 const util = require("util");
 
-exports.log = log;
+const logger = require("../util/logger");
+
+exports.log = function log(...args) {
+    try {
+        const now = new Date().toLocaleString("en-US", {
+            month: "short",
+            day: "2-digit",
+            hour12: false,
+            hour: "2-digit",
+            minute: "2-digit",
+            second: "2-digit"
+        });
+        console.log(now, ...args); // eslint-disable-line no-console
+    } catch (error) {
+        console.error(error);
+    }
+}
 exports.request = request;
 exports.getIP = getIP;
 
