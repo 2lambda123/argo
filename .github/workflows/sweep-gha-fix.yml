@@ -1,4 +1,4 @@
-name: CI (Sweep GHA Fix)
+name: Sweep GHA Fix
 
 on: [push]
 
@@ -25,5 +25,3 @@ jobs:
       run: npm test --silent
       env:
         CI: true
-    - name: Run script
-      run: # command to fix the specific problem reported by the user
