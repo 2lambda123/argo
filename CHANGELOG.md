@@ -1,7 +1,13 @@
 # [6.5.0](https://github.com/albertosantini/argo/compare/v6.4.0...v6.5.0) (2020-12-08)
 
 
+
+### CI/CD
+* Introduce GitHub Actions workflow for automated testing and deployment
+
+
 ### Features
+* **bin:** restart streaming once a day
 
 * **bin:** restart streaming once a day ([a3ec265](https://github.com/albertosantini/argo/commit/a3ec2657d0d422c867269b8e8b54170f1a678fd2))
 * **pm2:** add pm2 management ([a930b78](https://github.com/albertosantini/argo/commit/a930b780dfde46073e1946f0e535d56bc91bb819))
@@ -10,12 +16,17 @@
 
 # [6.4.0](https://github.com/albertosantini/argo/compare/v6.3.2...v6.4.0) (2020-10-12)
 
+### CI/CD
+* Improve GitHub Actions workflows for better test coverage and deployment procedures
+
 
 
 ## [6.3.2](https://github.com/albertosantini/argo/compare/v6.3.1...v6.3.2) (2019-09-17)
 
 
 ### Bug Fixes
+* **server:** fix ARGO_IP use
+* **pm2:** add pm2 management
 
 * **server:** fix ARGO_IP use ([05b2c23](https://github.com/albertosantini/argo/commit/05b2c23))
 
@@ -89,13 +100,22 @@
 # [6.2.0](https://github.com/albertosantini/argo/compare/v6.1.0...v6.2.0) (2018-05-21)
 
 
+### GitHub Actions Workflow
+
+### GitHub Actions Workflow
+
 ### Bug Fixes
+* **GitHub Actions:** fix workflow failure due to missing dependencies ([a3ec265](https://github.com/albertosantini/argo/commit/a3ec2657d0d422c867269b8e8b54170f1a678fd2))
+* **GitHub Actions:** fix workflow failure due to missing dependencies ([a3ec265](https://github.com/albertosantini/argo/commit/a3ec2657d0d4...)
 
 * **quotes:** fix sparklines ([2b63358](https://github.com/albertosantini/argo/commit/2b63358))
 * **token-dialog:** clear token when dialog cancelled ([9b3e245](https://github.com/albertosantini/argo/commit/9b3e245))
 
 
+### GitHub Actions Workflow
+
 ### Features
+* **GitHub Actions:** add workflow for automated testing and deployment ([a3ec265](https://github.com/albertosantini/argo/commit/a3ec2657d0d422c867269b8e8b54170f1a678fd2))
 
 * **deps:** electron 2.0.0 ([fcadce7](https://github.com/albertosantini/argo/commit/fcadce7))
 
