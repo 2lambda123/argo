@@ -5,6 +5,7 @@ exports.run = run;
 exports.sendMessage = sendMessage;
 
 const WebSocket = require("faye-websocket"),
+    logger = require("../util/logger"),
     request = require("../util").request,
     config = require("./config"),
     plugin = require("../plugin/plugin");
