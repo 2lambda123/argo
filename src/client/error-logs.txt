@@ -1,0 +1,14 @@
+### Bug Fixes
+
+- **server:** fix ARGO_IP use ([05b2c23](https://github.com/albertosantini/argo/commit/05b2c23))
+- **server:** add ARGO_IP when you need to force ip ([f7c7277](https://github.com/albertosantini/argo/commit/f7c7277))
+
+### Features
+
+- **bin:** restart streaming once a day ([a3ec265](https://github.com/albertosantini/argo/commit/a3ec2657d0d422c867269b8e8b54170f1a678fd2))
+- **pm2:** add pm2 management ([a930b78](https://github.com/albertosantini/argo/commit/a930b780dfde46073e1946f0e535d56bc91bb819))
+
+When you make a contribution to the Argo project, you agree:
+1. The code you wrote is your original work (you own the copyright) or you otherwise have the right to submit the work.
+2. To grant the Argo project a nonexclusive, irrevocable license to use your submitted code in any way.
+3. You are capable of granting these rights for the contribution.
