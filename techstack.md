@@ -14,11 +14,12 @@
 - [ESLint](http://eslint.org/) – Code Review
 - [rollup](http://rollupjs.org/) – JS Build Tools / JS Task Runners
 - [tachyons](http://tachyons.io/) – Front-End Frameworks
-- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+
 
 Full tech stack [here](/techstack.md)
 
 &lt;--- Readme.md Snippet without images End ---&gt;
+- [GitHub Actions](https://github.com/features/actions) - Continuous Integration
 
 &lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
@@ -208,10 +209,10 @@ Full tech stack [here](/techstack.md)
 |[async](https://www.npmjs.com/async)|v3.2.0|03/21/20|Alberto Santini |MIT|[CVE-2021-43138](https://github.com/advisories/GHSA-fwr7-v2mv-hh25) (High)|
 |[body-parser](https://www.npmjs.com/body-parser)|v1.19.0|05/14/19|icebox |MIT|N/A|
 |[conventional-changelog-cli](https://www.npmjs.com/conventional-changelog-cli)|v2.1.1|12/08/20|Alberto Santini |ISC|N/A|
-|[d3](https://www.npmjs.com/d3)|v6.5.0|07/29/16|icebox |ISC|N/A|
-|[document-register-element](https://www.npmjs.com/document-register-element)|v1.14.10|10/12/20|Alberto Santini |ISC|N/A|
-|[express](https://www.npmjs.com/express)|v4.17.1|05/26/19|icebox |MIT|[CVE-2022-24999](https://github.com/advisories/GHSA-hrpp-h998-j3pp) (High)|
-|[https-proxy-agent](https://www.npmjs.com/https-proxy-agent)|v5.0.0|03/21/20|Alberto Santini |MIT|N/A|
+
+
+
+
 
 <br/>
 <div align='center'>
