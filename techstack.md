@@ -13,7 +13,7 @@
 - [ESLint](http://eslint.org/) – Code Review
 - [rollup](http://rollupjs.org/) – JS Build Tools / JS Task Runners
 - [tachyons](http://tachyons.io/) – Front-End Frameworks
-- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- [GitHub Actions](http://new-tech-stack-url.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
 
