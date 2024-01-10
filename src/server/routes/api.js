@@ -1,4 +1,5 @@
 "use strict";
+const logger = require("../util/logger");
 
 exports.startStream = startStream;
 exports.getAccounts = getAccounts;
