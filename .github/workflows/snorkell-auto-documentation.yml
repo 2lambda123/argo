@@ -9,7 +9,7 @@ on:
 
 jobs:
   Documentation:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
     - name: Snorkell DocGen Client
       uses: SingularityX-ai/snorkell-documentation-client@v1.0.0
@@ -17,3 +17,9 @@ jobs:
         client_id: ${{ secrets.SNORKELL_CLIENT_ID }}
         api_key: ${{ secrets.SNORKELL_API_KEY }}
         branch_name: "master"
+    - name: Install Dependencies
+      run: npm install
+    - name: Install Dependencies
+      run: npm install
+    - name: Install Dependencies
+      run: npm install
