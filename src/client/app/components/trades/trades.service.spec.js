@@ -53,7 +53,7 @@ describe("tradesService", () => {
     beforeEach(() => {
         const apiTrades = "/api/trades";
 
-        /* eslint no-new:off */
+        /* eslint no-new: off */
         new TradesService({ value: [] });
 
         SessionService.setCredentials({
