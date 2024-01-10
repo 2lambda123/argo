@@ -19,7 +19,7 @@ Full tech stack [here](/techstack.md)
 
 &lt;--- Readme.md Snippet without images End ---&gt;
 
-&lt;--- Readme.md Snippet with images Start ---&gt;
+
 ## Tech Stack Overview
 2lambda123/argo is built on the following main stack:
 
@@ -59,7 +59,7 @@ Full tech stack [here](/techstack.md)
   <sub></sub>
 </td>
 
-<td align='center'>
+
   <img width='36' height='36' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'>
   <br>
   <sub><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></sub>
