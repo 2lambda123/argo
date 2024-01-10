@@ -30,6 +30,7 @@ app.use("/build", staticFiles(routes.config.buildFiles));
 app.use(apiUrl, routes.apis);
 
 app.listen(port, async () => {
+    // Start the bridge connection with the plugin
     const ipaddress = await util.getIP();
 
     util.log(`Argo listening on http://${ipaddress}:${port}`);
