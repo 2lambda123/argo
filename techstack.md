@@ -20,8 +20,8 @@ Full tech stack [here](/techstack.md)
 &lt;--- Readme.md Snippet without images End ---&gt;
 
 
-## Tech Stack Overview
-2lambda123/argo is built on the following main stack:
+## Tech Stack Information
+2lambda123/argo utilizes the following technologies:
 
 - <img width='25' height='25' src='https://img.stackshare.io/service/832/mocha.png' alt='Mocha'/> [Mocha](http://mochajs.org/) – Javascript Testing Framework
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
