@@ -17,7 +17,7 @@ whatever is affected by your contribution.
 - Push to your fork and submit a pull request (squashing the commits into one).
 
 
-At this point you are waiting on us. We like to at least comment on, if not
+At this point you are waiting on us. *Please ensure you sign off your commits by adding the DCO sign-off message in your commit message*. We like to at least comment on, if not
 accept, pull requests within three business days (and, typically, one business
 day). We may suggest some changes or improvements or alternatives.
 
