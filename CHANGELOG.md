@@ -3,6 +3,8 @@
 
 ### Features
 
+* **[GitHub Actions Fix] Fix build process in GitHub Actions workflow:** Fix the build process in the GitHub Actions workflow to prevent failures during the build. ([Commit ID of the fix)]
+
 * **bin:** restart streaming once a day ([a3ec265](https://github.com/albertosantini/argo/commit/a3ec2657d0d422c867269b8e8b54170f1a678fd2))
 * **pm2:** add pm2 management ([a930b78](https://github.com/albertosantini/argo/commit/a930b780dfde46073e1946f0e535d56bc91bb819))
 
