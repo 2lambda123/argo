@@ -1,3 +1,6 @@
+/*
+This file defines the Argo server, including the setup of routes, the listening of the server, and the startup of a plugin.
+*/
 "use strict";
 
 const fs = require('fs');
