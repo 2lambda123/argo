@@ -407,8 +407,8 @@
 
 
 
-<a name="3.3.0"></a>
-# [3.3.0](https://github.com/albertosantini/argo/compare/v3.2.0...v3.3.0) (2016-03-21)
+<a name="2.7.0"></a>
+# [2.7.0](https://github.com/albertosantini/argo/compare/v3.2.0...v3.3.0) (2016-03-21)
 
 
 ### Bug Fixes
@@ -482,7 +482,7 @@
 
 ### Features
 
-* **deps:** Material 1.0.1 ([62d9357](https://github.com/albertosantini/argo/commit/62d9357))
+* **deps:** Material 2.0.0 ([62d9357](https://github.com/albertosantini/argo/commit/62d9357))
 
 
 
@@ -504,10 +504,10 @@
 ### Features
 
 * **build:** update grunt-conventional-changelog 5.0.0 ([2f48e21](https://github.com/albertosantini/argo/commit/2f48e21))
-* **deps:** Angular 1.5.0-rc.0, Material 1.0.0-rc7 ([61bd25b](https://github.com/albertosantini/argo/commit/61bd25b))
+* **deps:** Angular 1.5.0-rc.0, Material 2.0.0-rc7 ([61bd25b](https://github.com/albertosantini/argo/commit/61bd25b))
 * **deps:** AngularJS 1.4.8 ([1f88665](https://github.com/albertosantini/argo/commit/1f88665))
-* **deps:** Material 1.0.0 ([42f749f](https://github.com/albertosantini/argo/commit/42f749f))
-* **deps:** Material 1.0.0-rc5, Ang 1.5.0-beta.2 ([2d0a855](https://github.com/albertosantini/argo/commit/2d0a855))
+* **deps:** Material 2.0.0 ([42f749f](https://github.com/albertosantini/argo/commit/42f749f))
+* **deps:** Material 2.0.0-rc5, Ang 1.5.0-beta.2 ([2d0a855](https://github.com/albertosantini/argo/commit/2d0a855))
 * **deps:** Material 1.0.0-rc6 ([ca2e465](https://github.com/albertosantini/argo/commit/ca2e465))
 * **deps:** update AngularJS 1.4.6 ([8e854b8](https://github.com/albertosantini/argo/commit/8e854b8))
 * **deps:** update AngularJS 1.4.7 ([e68e49c](https://github.com/albertosantini/argo/commit/e68e49c))
