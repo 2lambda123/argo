@@ -66,7 +66,7 @@ describe("tradesService", () => {
     });
 
     it("getTrades", done => {
-        TradesService.refresh().then(trades => {
+        const trades = TradesService.refresh();(trades => {
             assert.lengthOf(trades, 3);
 
             assert.strictEqual(175427743, trades[0].id);
