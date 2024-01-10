@@ -42,7 +42,7 @@ app.listen(port, async () => {
     util.log(`Argo streaming prices and events on ws://${ipaddress}:${port}${routes.config.streamUrl}`);
 });
 
-plugin.startBridge();
+
 
 // Removed the reading of 'error-logs.txt' file
 
